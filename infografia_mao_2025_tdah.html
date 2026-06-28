@@ -1,0 +1,127 @@
+
+<style>
+  .inf-wrap { font-family: var(--font-sans); padding: 1.5rem 1rem; max-width: 680px; }
+  .inf-header { background: #3B6D11; border-radius: 12px; padding: 1.2rem 1.5rem; margin-bottom: 1rem; }
+  .inf-header h1 { color: #EAF3DE; font-size: 15px; font-weight: 500; margin: 0 0 4px; line-height: 1.4; }
+  .inf-header p { color: #C0DD97; font-size: 12px; margin: 0; }
+  .inf-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px; }
+  .inf-grid-3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin-bottom: 10px; }
+  .inf-card { background: #EAF3DE; border-radius: 12px; padding: 0.9rem 1rem; border: 0.5px solid #C0DD97; }
+  .inf-card-dark { background: #27500A; border-radius: 12px; padding: 0.9rem 1rem; }
+  .inf-card-mid { background: #639922; border-radius: 12px; padding: 0.9rem 1rem; }
+  .inf-card h2 { color: #27500A; font-size: 12px; font-weight: 500; margin: 0 0 6px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .inf-card p { color: #3B6D11; font-size: 12.5px; margin: 0; line-height: 1.5; }
+  .inf-card-dark h2 { color: #C0DD97; font-size: 12px; font-weight: 500; margin: 0 0 6px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .inf-card-dark p { color: #EAF3DE; font-size: 12.5px; margin: 0; line-height: 1.5; }
+  .inf-card-mid h2 { color: #EAF3DE; font-size: 12px; font-weight: 500; margin: 0 0 6px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .inf-card-mid p { color: #EAF3DE; font-size: 12.5px; margin: 0; line-height: 1.5; }
+  .stat-row { display: flex; gap: 8px; margin-bottom: 10px; }
+  .stat-box { flex: 1; background: #3B6D11; border-radius: 10px; padding: 0.7rem 0.8rem; text-align: center; }
+  .stat-box .num { color: #C0DD97; font-size: 20px; font-weight: 500; display: block; line-height: 1.2; }
+  .stat-box .lbl { color: #EAF3DE; font-size: 11px; line-height: 1.3; display: block; margin-top: 2px; }
+  .tag { display: inline-block; background: #639922; color: #EAF3DE; border-radius: 20px; font-size: 11px; padding: 2px 10px; margin: 3px 3px 0 0; }
+  .result-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px; }
+  .result-item { background: #EAF3DE; border-radius: 10px; padding: 0.7rem 0.9rem; border-left: 4px solid #639922; }
+  .result-item .area { color: #27500A; font-size: 11px; font-weight: 500; margin: 0 0 2px; }
+  .result-item .val { color: #3B6D11; font-size: 12px; margin: 0; }
+  .full-card { border-radius: 12px; padding: 0.9rem 1rem; margin-bottom: 10px; background: #EAF3DE; border: 0.5px solid #C0DD97; }
+  .full-card h2 { color: #27500A; font-size: 12px; font-weight: 500; margin: 0 0 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .mod-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  .mod-item { background: #fff; border-radius: 8px; padding: 0.6rem 0.8rem; border: 0.5px solid #C0DD97; }
+  .mod-item .mk { color: #3B6D11; font-size: 11.5px; font-weight: 500; margin: 0 0 2px; }
+  .mod-item .mv { color: #639922; font-size: 11px; margin: 0; }
+  .footer { background: #173404; border-radius: 10px; padding: 0.8rem 1rem; display: flex; align-items: center; gap: 10px; }
+  .footer p { color: #97C459; font-size: 11.5px; margin: 0; line-height: 1.5; }
+</style>
+
+<div class="inf-wrap">
+
+  <div class="inf-header">
+    <h1>Intervenciones basadas en juegos y rendimiento cognitivo en niños y adolescentes con TDAH</h1>
+    <p>Revisión sistemática y meta-análisis · Mao, Liu, Fang &amp; Liu (2025) · BMC Psychiatry</p>
+  </div>
+
+  <div class="inf-grid">
+    <div class="inf-card">
+      <h2>¿Qué son?</h2>
+      <p>Intervenciones con elementos de juego (metas, reglas, retroalimentación, dificultad adaptativa) para mejorar funciones cognitivas. Pueden ser digitales o físicas.</p>
+    </div>
+    <div class="inf-card-dark">
+      <h2>Población objetivo</h2>
+      <p>Niños y adolescentes de <strong style="color:#97C459">6–18 años</strong> con diagnóstico de TDAH, con déficits en atención, memoria de trabajo y funciones ejecutivas.</p>
+    </div>
+  </div>
+
+  <div class="inf-card" style="margin-bottom:10px;">
+    <h2>Objetivo</h2>
+    <p>Evaluar la eficacia de las intervenciones basadas en juegos sobre el rendimiento cognitivo en niños con TDAH, cuantificar el tamaño del efecto e identificar factores que moderan su efectividad.</p>
+  </div>
+
+  <div class="inf-card" style="margin-bottom:10px;">
+    <h2>¿Cómo se desarrolló?</h2>
+    <p>Búsqueda en PubMed, Medline, PsycINFO, Web of Science y Cochrane Library (2000–2024), siguiendo lineamientos PRISMA y registrado en PROSPERO. Se incluyeron solo ensayos controlados aleatorizados (ECAs).</p>
+  </div>
+
+  <div class="stat-row">
+    <div class="stat-box"><span class="num">1.470</span><span class="lbl">registros iniciales</span></div>
+    <div class="stat-box"><span class="num">20</span><span class="lbl">ECAs incluidos</span></div>
+    <div class="stat-box"><span class="num">1.376</span><span class="lbl">participantes</span></div>
+    <div class="stat-box"><span class="num">7–15</span><span class="lbl">años de edad</span></div>
+    <div class="stat-box"><span class="num">7.7/10</span><span class="lbl">calidad PEDro</span></div>
+  </div>
+
+  <div class="full-card">
+    <h2>Resultados principales</h2>
+    <div class="result-row">
+      <div class="result-item">
+        <p class="area">Efecto general</p>
+        <p class="val">SMD = 0.42 (IC 95%: 0.14–0.70; p &lt; 0.01) — efecto moderado significativo</p>
+      </div>
+      <div class="result-item">
+        <p class="area">Atención</p>
+        <p class="val">SMD = 0.724 — mejora grande y significativa</p>
+      </div>
+      <div class="result-item">
+        <p class="area">Flexibilidad cognitiva</p>
+        <p class="val">SMD = 0.565 — mejora significativa</p>
+      </div>
+      <div class="result-item">
+        <p class="area">Memoria de trabajo</p>
+        <p class="val">SMD = 0.486 — efecto moderado significativo</p>
+      </div>
+    </div>
+    <p style="color:#3B6D11; font-size:11.5px; margin:6px 0 0;">Control inhibitorio (SMD=0.17) y metacognición (SMD=0.20) — efectos no significativos</p>
+  </div>
+
+  <div class="full-card">
+    <h2>Factores que influyen en la efectividad</h2>
+    <div class="mod-grid">
+      <div class="mod-item">
+        <p class="mk">Tipo de juego</p>
+        <p class="mv">Juegos de funciones ejecutivas (EF-specific): mayor efecto (SMD = 0.943)</p>
+      </div>
+      <div class="mod-item">
+        <p class="mk">Entorno</p>
+        <p class="mv">Entorno escolar produce mejores resultados (SMD = 0.682) que en casa o clínica</p>
+      </div>
+      <div class="mod-item">
+        <p class="mk">Duración de sesión</p>
+        <p class="mv">Sesiones de más de 40 min generan mejores resultados (SMD = 0.709)</p>
+      </div>
+      <div class="mod-item">
+        <p class="mk">Edad</p>
+        <p class="mv">Participantes más jóvenes responden mejor, por mayor neuroplasticidad</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="inf-card-mid" style="margin-bottom:10px;">
+    <h2>Conclusión</h2>
+    <p>Las intervenciones basadas en juegos mejoran la atención, la flexibilidad cognitiva y la memoria de trabajo en niños con TDAH. Deben usarse como complemento a tratamientos convencionales. Se requieren protocolos estandarizados y ensayos multicéntricos.</p>
+  </div>
+
+  <div class="footer">
+    <p>Fuente: Mao F, Liu Z, Fang Q, Liu Y. Efficacy of game-based interventions on cognitive performance in children and adolescents with ADHD. <em>BMC Psychiatry</em>. 2025;25:1174. https://doi.org/10.1186/s12888-025-07607-4</p>
+  </div>
+
+</div>
